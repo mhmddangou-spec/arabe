@@ -1,0 +1,26 @@
+{
+  "name": "Arabingo : Apprendre l'Arabe",
+  "short_name": "Arabingo",
+  "description": "Apprenez l'arabe gratuitement avec une plume érudite. Alphabet, vocabulaire, et Tajwid grâce à notre IA de prononciation unique.",
+  "categories": [
+    "education",
+    "language_learning"
+  ],
+  "keywords": [
+    "arabe",
+    "apprendre",
+    "langue",
+    "alphabet",
+    "coran",
+    "tajwid",
+    "quiz",
+    "duolingo"
+  ],
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "theme_color": "#58cc02",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait"
+}

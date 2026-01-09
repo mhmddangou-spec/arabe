@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Arabingo - L'Arabe, une plume à la fois</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Apprenez la langue arabe gratuitement. Alphabet, prononciation et Tajwid avec Arabingo, l'application gamifiée n°1 pour les débutants et érudits.">
+    <meta name="keywords" content="apprendre l'arabe, alphabet arabe, cours arabe gratuit, tajwid, coran, langue arabe mobile">
+    <meta name="author" content="Arabingo EdTech">
+    
+    <!-- OpenGraph (Facebook, WhatsApp, etc.) -->
+    <meta property="og:title" content="Arabingo : Maîtrisez l'Arabe Facilement">
+    <meta property="og:description" content="Une méthode ludique et une IA de pointe pour apprendre l'arabe, du premier mot au Tajwid érudit.">
+    <meta property="og:image" content="https://arabingo.app/og-image.jpg">
+    <meta property="og:url" content="https://arabingo.app">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Arabingo - L'Arabe à la portée de tous">
+    <meta name="twitter:description" content="Rejoignez la communauté Arabingo et commencez votre voyage linguistique aujourd'hui.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+            overflow-x: hidden;
+            background-color: #ffffff;
+        }
+        .arabic-text {
+            font-family: 'Noto Sans Arabic', sans-serif;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 0px;
+        }
+        @keyframes bounce-subtle {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-10px); }
+        }
+        .animate-bounce-subtle {
+          animation: bounce-subtle 2.5s ease-in-out infinite;
+        }
+        /* App-like feel: prevent text selection and context menu */
+        * {
+            -webkit-user-select: none;
+            user-select: none;
+        }
+        input, textarea {
+            -webkit-user-select: text;
+            user-select: text;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.12.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+  }
+}
+</script>
+</head>
+<body class="bg-white text-gray-900">
+    <div id="root"></div>
+</body>
+</html>
